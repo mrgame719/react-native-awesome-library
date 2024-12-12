@@ -12111,25 +12111,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-native-awesome-library-example@workspace:example":
+"react-native-awesome-library-cuong@workspace:.":
   version: 0.0.0-use.local
-  resolution: "react-native-awesome-library-example@workspace:example"
-  dependencies:
-    "@babel/core": ^7.20.0
-    "@expo/metro-runtime": ~4.0.0
-    expo: ~52.0.18
-    expo-status-bar: ~2.0.0
-    react: 18.3.1
-    react-dom: 18.3.1
-    react-native: 0.76.5
-    react-native-builder-bob: ^0.32.0
-    react-native-web: ~0.19.13
-  languageName: unknown
-  linkType: soft
-
-"react-native-awesome-library@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "react-native-awesome-library@workspace:."
+  resolution: "react-native-awesome-library-cuong@workspace:."
   dependencies:
     "@commitlint/config-conventional": ^17.0.2
     "@evilmartians/lefthook": ^1.5.0
@@ -12153,6 +12137,22 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
+  languageName: unknown
+  linkType: soft
+
+"react-native-awesome-library-example@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "react-native-awesome-library-example@workspace:example"
+  dependencies:
+    "@babel/core": ^7.20.0
+    "@expo/metro-runtime": ~4.0.0
+    expo: ~52.0.18
+    expo-status-bar: ~2.0.0
+    react: 18.3.1
+    react-dom: 18.3.1
+    react-native: 0.76.5
+    react-native-builder-bob: ^0.32.0
+    react-native-web: ~0.19.13
   languageName: unknown
   linkType: soft
 
